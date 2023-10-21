@@ -1,0 +1,8 @@
+version: "3.8"
+services:
+  ocr:
+    image: screenshot_ocr
+    container_name: ocr
+    build: .
+    volumes:
+      - .:/ocr
